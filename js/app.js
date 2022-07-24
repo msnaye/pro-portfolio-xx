@@ -8,7 +8,6 @@ hamburger.addEventListener("click", ()=>{
     menu.classList.toggle("hidden");
     hamburger.classList.toggle("bg-white");
 })
-
 hLinks.forEach(link=>{
     hamburger.addEventListener("click", ()=>{
         menu.classList.toggle("hidden");
@@ -17,5 +16,4 @@ hLinks.forEach(link=>{
 })
 moon.addEventListener("click", ()=>{
     body.classList.toggle("dark");
-    ;
 })
