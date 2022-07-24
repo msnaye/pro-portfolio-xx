@@ -1,24 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
-          rel="stylesheet"
-    />      
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Mayra Ibarra</title>
 </head>
+
 <body class="font-nunito">
     <!--intro section-->
-    <div>
-        <h1 class="text-3xl text-red-500 sm:text-blue-500">Mayra Ibarra</h1>
+    <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200">
+
         <!--navbar-->
-        <nav></nav>
-       <!---- intro content-->
-       <div></div>
-    </div> 
-    
+        <nav class="w-full fixed top-0 bg-white">
+            <!---- intro content-->
+            <div class="container mx-auto py-5 flex justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-8" src="" alt="">
+                    <span class="text-2xl font-bold text-indigo-900">Mayra Ibarra</span>
+                </div>
+
+
+                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                    <li class="hover:text-gray-500">
+                        <a href="#">homepage</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">About Me</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">services</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">works</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+
+
+                <img src="" class="hidden md:block w-5 cursor-pointer" alt="">
+                <div class="space-y-1 md:hidden cursor-pointer">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li 
+                        <a href="#">homepage</a>
+                    </li>
+                    <li 
+                        <a href="#">About Me</a>
+                    </li>
+                    <li 
+                        <a href="#">services</a>
+                    </li>
+                    <li 
+                        <a href="#">works</a>
+                    </li>
+                    <li 
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--intro content-->
+        <div></div>
+    </div>
+    <script src="./js/app.js"></script>
+
 </body>
+
 </html>
